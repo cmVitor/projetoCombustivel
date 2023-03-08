@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculaCombustivel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="page-title"> Gasolina ou Etanol?</h1>
+    <h2 class="subtitle"> Descubra se está compensando pôr gasolina ou álcool </h2>
+    <img src="" class="page-logo" alt=""><br><br>
+    <label for="moeda">Insira os valores</label>
+    <br><br>
+    <input type="number" id="gasolina" placeholder="Preço Gasolina">
+    <input type="number" id="etanol" placeholder="Preço Etanol">
+    <br><br>
+    <button  type="submit" onclick="solveProblem()">Descobrir</button>
+    <br>
+    <h2 id="result" class="resultado"></h2> <br>
+    <button class="valores" onclick="calculaLitro50()">R$50</button>
+    <h2 id="litros50" style="color: white;"></h2><br>
+    <button class="valores" onclick="calculaLitro100()">R$100</button>
+    <h2 id="litros100" style="color: white;"></h2>
+    
+    <script src="js/index.js"></script>
+</body>
+
+</html>

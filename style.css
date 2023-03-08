@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: monospace;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.page-title{
+    color: white;
+    text-align: center;
+}
+.subtitle{
+    color: white;
+    text-align: center;
+}
+label{
+    color: white;
+    font-size: 20px;
+}
+.resultado{
+    color: white;
+}
+input{
+    padding: 20px;
+    background-color: rgb(199, 199, 199);
+}
+button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(194, 218, 157);
+}
